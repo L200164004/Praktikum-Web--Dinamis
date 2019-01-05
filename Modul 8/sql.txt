@@ -1,0 +1,12 @@
+insert into user(username, password, nama,status)
+values ('admin','1234','Admin aplikasi','Administrator');
+
+insert into user(username,password,nama,status)
+values ('adul','1111','Abdul Adullah','Member');
+
+create table user(
+Username varchar(100) primary key,
+Password varchar(100),
+Nama varchar(100),
+Status varchar(100)
+);
